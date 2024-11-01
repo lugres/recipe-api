@@ -14,11 +14,13 @@ RUN mkdir -p /vol/static && \
     chmod 755 /vol/static && \
     touch /etc/nginx/conf.d/default.conf && \
     chown nginx:nginx /etc/nginx/conf.d/default.conf && \
-    chmod +x /run.sh
-
+    chmod +x /run.sh && \
+    mkdir -p /vol/proxy && \
+    chown nginx:nginx /vol/proxy
 
 VOLUME /vol/static
 VOLUME /vol/www
+VOLUME /vol/proxy
 
 USER nginx
 
