@@ -25,7 +25,7 @@ To get a feeling of the app, please create a user first via respective API endpo
 The project is based on Udemy course by Mark Winterbottom.
 https://www.udemy.com/course/django-python-advanced
 
-*A sneak-peak of the running Recipe API on AWS EC2 instance*:
+### A sneak-peak of the running Recipe API on AWS EC2 instance
 
 Your connection is always secure, protected by the means of an SSL certificate from Let's Encrypt:
 ![SSL](./demo/01_recipe_api_secure_ssl.png)
